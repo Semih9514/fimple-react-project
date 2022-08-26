@@ -34,6 +34,7 @@ function Tahta() {
 
     const handleRestart = (i) => {
         setKup(Array(9).fill(null));
+        setX(true);
     }
 
     function kazananiHesapla(kupler) {
