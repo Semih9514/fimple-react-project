@@ -29,6 +29,13 @@ code {
   font-size: 50px;
 }
 
+.btn-play{
+  height: 50px;
+  width:200px;
+  font-size: 25px;
+  background-color: rgb(57, 134, 134);
+}
+
 .App{
   width:80%;
   margin:auto;

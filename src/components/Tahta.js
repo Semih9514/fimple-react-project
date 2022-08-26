@@ -27,9 +27,13 @@ function Tahta() {
             setKup(kupler);
             setX(!X);
         } else {
-            alert("Bunu yapamazsın")
+            alert("Zaten Seçildi")
         }
 
+    }
+
+    const handleRestart = (i) => {
+        setKup(Array(9).fill(null));
     }
 
     function kazananiHesapla(kupler) {
@@ -72,6 +76,7 @@ function Tahta() {
         </div>
 
         <h3>{durum}</h3>
+        <button onClick={()=> handleRestart()} className='btn-play'>Tekrar Oyna</button>
     </div>
   );
 }
